@@ -13,3 +13,15 @@ Module is like a code library which can be used to borrow code written by somebo
 ## Pip
 
 It can be used as a package manager pip to install a python module.
+
+```c
+pip install pandas
+```
+
+```c
+import pandas
+
+# Read and work with a file named 'words.csv'
+df = pandas.read_csv('words.csv')
+print(df) # This will display first few rows from the words.csv file
+```
