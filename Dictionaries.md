@@ -60,9 +60,11 @@ print(dict)
 
 **Output**
 
-
+```
 dict_values (['Red', 'Yellow', 'White'] )
 {'Apple': 'Red', 'Banana': 'Yellow', 'Grape': 'Green'}
+
+```
 
 
 
@@ -79,8 +81,9 @@ print(d)
 
 **Output**
 
+```
 {'Josh': 'Guitar', 'Gary': 'Drums', 'Hik': 'Piano', 'kurt': 'flute'}
-
+```
 
 
 
@@ -104,7 +107,9 @@ print(c)
 
 **Output**
 
+```
 {'Ferrari': 1967, 'Honda': 2001}
 {}
+```
 
 
