@@ -1,4 +1,4 @@
-# List in Python
+# Lists in Python
 
 
 
@@ -13,7 +13,14 @@ This will print elements from index number
 Note:
 
 Indexing starts from 0.
+
+
+
+
 Item on index no 4
+
+
+
 4 **will not be** printed as the end index is excluded.
 
 
