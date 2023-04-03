@@ -63,7 +63,6 @@ print(dict)
 ```
 dict_values (['Red', 'Yellow', 'White'] )
 {'Apple': 'Red', 'Banana': 'Yellow', 'Grape': 'Green'}
-
 ```
 
 
