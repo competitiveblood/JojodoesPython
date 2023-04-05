@@ -10,12 +10,24 @@ for x in fruit:
   print(x) 
 ```
 
-Output
+**Output**
+
 Apple
+
+
 Grape
+
+
+
 Melon
+
+
 Kiwi
+
+
+
 Banana
+
 
 ## Skipping items in a looped list
 
@@ -33,11 +45,19 @@ for x in Mnts:
   print(x)
 ```
 
-Output
+**Output**
 
 Jan
+
+
 Feb
+
+
+
 March
+
+
+
 May
 
 
@@ -49,19 +69,49 @@ for x in a:
  print(x)
 ```
 
-Output
+**Output**
 
 
 A
+
+
 n
+
+
 t
+
+
+
 a
+
+
+
+
 r
+
+
+
 c
+
+
+
+
 t
+
+
+
 i
+
+
+
 c
+
+
+
 a
+
+
+
 S
 
 
@@ -79,24 +129,88 @@ for x in range( 25 ):
 print("LOOP ENDED")
 ```
 
-Output
+**Output**
 
 0
+
+
+
 1
+
+
+
 2
+
+
+
+
 3
+
+
+
 4
+
+
+
 5
+
+
+
+
 6
+
+
+
+
 7
+
+
+
+
 8
+
+
+
+
 9
+
+
+
+
+
+
+
 10
+
+
+
 11
+
+
+
 12
+
+
+
 13
+
+
+
+
+
 14
+
+
+
+
 15
+
+
+
+
+
+
+
 16
 17
 18
@@ -118,7 +232,7 @@ or x in range( 4 , 32 ):
   print(x)
 ```
 
-Output
+**Output**
 
 4
 5
@@ -167,7 +281,7 @@ for i in range(20,45, 2):
   print( i )
 ```
 
-Output
+**Output**
 
 20
 22
@@ -189,9 +303,9 @@ We can use the "break" statement to stop the loop before it has looped through a
 
 Note:
 
-"break" functions differently from "continue" that we learnt earlier
-"break" exits the loop completely and goes to the next section of the program
-"continue" exits the current iteration and skips the code remaining in the current loop iteration.
+**"break"** functions differently from "continue" that we learnt earlier
+**"break"** exits the loop completely and goes to the next section of the program
+**"continue"** exits the current iteration and skips the code remaining in the current loop iteration.
 However, the "for" or "while" loop continues with the next iteration.
 
 ```c
@@ -203,7 +317,7 @@ for i in range(11):
     print(i)
 ```
 
-Output
+**Output**
 
 0
 1
@@ -224,21 +338,55 @@ for j in range(1,11):
   print(i, 'x', j, '=', i * j)
  ```
  
- Input
+ **Input**
  
 10
 
- Output 
+ **Output** 
  
  10 x 1 = 10
+ 
+ 
+ 
 10 x 2 = 20
+
+
+
+
 10 x 3 = 30
+
+
+
+
 10 x 4 = 40
+
+
+
 10 x 5 = 50
+
+
+
+
 10 x 6 = 60
+
+
+
+
 10 x 7 = 70
+
+
+
+
 10 x 8 = 80
+
+
+
+
 10 x 9 = 90
+
+
+
+
 10 x 10 = 100
 
 
@@ -254,9 +402,9 @@ Print i as long as i is less than 6:
                   print(i)
                   i += 1
      Note: remember to increment i, or else the loop will continue forever.
- ```
  
- 
+```
+
  ```c
  a = 0
 while a< 9:
@@ -264,9 +412,9 @@ while a< 9:
  a = a+1
  ```
  
- Output
+ **Output**
  
- 0
+0
 1
 2
 3
@@ -296,9 +444,9 @@ while c < 15 :
   print(c)
  ```
  
- Output
+ **Output**
  
- 1
+1
 2
 3
 4
@@ -326,7 +474,7 @@ while a < 25:
 print("No more numbers are less than or Equal to 25")
 ```
 
-Output
+**Output**
 
 5
 6
@@ -364,13 +512,25 @@ for i in range(rows):
     print("")
   ```
   
-  Output
+ **Output**
   
 1
+
+
 12
+
+
 123
+
+
+
 1234
+
+
 12345
+
+
+
 123456
 
 
