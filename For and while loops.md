@@ -194,6 +194,184 @@ Note:
 "continue" exits the current iteration and skips the code remaining in the current loop iteration.
 However, the "for" or "while" loop continues with the next iteration.
 
+```c
+for i in range(11): 
+    if i == 8:
+        break
+    #Note that print is being executed AFTER the if / break condition.
+    #What is the importance of this?
+    print(i)
+```
+
+Output
+
+0
+1
+2
+3
+4
+5
+6
+7
 
 
 
+## Table of Any number
+
+```c
+i = int(input())
+for j in range(1,11):
+  print(i, 'x', j, '=', i * j)
+ ```
+ 
+ Input
+ 
+10
+
+ Output 
+ 
+ 10 x 1 = 10
+10 x 2 = 20
+10 x 3 = 30
+10 x 4 = 40
+10 x 5 = 50
+10 x 6 = 60
+10 x 7 = 70
+10 x 8 = 80
+10 x 9 = 90
+10 x 10 = 100
+
+
+##  While Loop
+
+Similar to the "for" loop, Python also has a "while" loop with which we can execute a set of statements as long as a condition is true.
+
+Print i as long as i is less than 6:
+
+```c
+              i = 1
+              while i < 6:
+                  print(i)
+                  i += 1
+     Note: remember to increment i, or else the loop will continue forever.
+ ```
+ 
+ 
+ ```c
+ a = 0
+while a< 9:
+ print(a)
+ a = a+1
+ ```
+ 
+ Output
+ 
+ 0
+1
+2
+3
+4
+5
+6
+7
+8
+
+## Skipping elements in While loop
+
+
+all value of c to the console from 1 till 15 but skip printing 11.
+
+
+```c
+#Update the '_' in the code below to solve the problem
+
+c = 0
+
+#Note that print(c) is coming after c = c + 1
+#How does this change the condition of the while loop?
+while c < 15 :
+  c = c + 1
+  if c == 11 :
+   continue
+  print(c)
+ ```
+ 
+ Output
+ 
+ 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+13
+14
+15
+
+
+##  Sequence of numbers
+
+```c
+a = 4
+while a < 25:
+ a = a+1
+ if a == 21:
+  continue
+ print(a)
+print("No more numbers are less than or Equal to 25")
+```
+
+Output
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+No more numbers are less than or Equal to 25
+
+
+## Making patterns with Nested Loops
+
+A nested loop is a loop inside a loop. 
+The "inner loop" will be executed completely for each single iteration of the "outer loop"
+
+```c
+rows = int(input())
+for i in range(rows):
+    for j in range(i+1):
+        print(j+1, end="")
+    print("")
+  ```
+  
+  Output
+  
+1
+12
+123
+1234
+12345
+123456
+
+
+ 
