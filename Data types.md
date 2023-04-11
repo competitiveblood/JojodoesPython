@@ -24,7 +24,7 @@ Boolean	        True
 
 
 
-String	    'freeCodeCamp'
+String	    'Manipal'
 
 
 
